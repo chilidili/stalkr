@@ -24,23 +24,19 @@
         var URLimg = "https://www.google.ca/search?q="+url+sites[i]+"+wallpaper&source=lnms&tbm=isch&sa=X&ei"
         
         if(i == 0)
-            var win = window.open(URLimg, "_blank", "toolbar=no, scrollbars=yes, resizable=yes, top=0, left=0, width=1280, height=735");
+            var win = window.open(URLimg, "_blank", "toolbar=no, scrollbars=yes, resizable=yes, top=0, left=0, width=1320, height=735");
 
-        if(i ==1 )
+        else if(i ==1 )
             var win = window.open(URL, "_blank", "toolbar=no, scrollbars=yes, resizable=yes, top=0, left=0, width=640, height=365");
        
-        if(i ==2 )
+        else if(i ==2 )
             var win = window.open(URL, "_blank", "toolbar=no, scrollbars=yes, resizable=yes, top=450, left=0, width=640, height=365");
         
-        if(i ==3 )
+        else if(i ==3 )
             var win = window.open(URL, "_blank", "toolbar=no, scrollbars=yes, resizable=yes, top=450, left=640, width=640, height=365");
        
-        if(i ==4 )
+        else
             var win = window.open(URL, "_blank", "toolbar=no, scrollbars=yes, resizable=yes, top=0, left=640, width=640, height=365");
-
-
-
-      
 
     }
 
