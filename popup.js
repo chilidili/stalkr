@@ -1,11 +1,14 @@
  window.onload = function() {
-    var a =0;
+    var a = "cooper";
     
     function myFunction()
     {
-         document.getElementById('person').textContent=a;
+        a=document.getElementById("person").value;
+
+        
+
         var strWindowFeatures = "location=yes,height=570,width=520,scrollbars=yes,status=yes";
-        var URL = "http://www.google.com/search?q="+a+"+&btnI" + location.href;
+        var URL = "http://www.google.com/search?q=+"+a+"+&btnI";
         var win = window.open(URL, "_blank", strWindowFeatures);
     }
     document.getElementById('thing').onclick = myFunction;
