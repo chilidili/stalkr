@@ -15,7 +15,7 @@
             url+=a[i];
         }
         
-        var sites = [" facebook", " twitter", " tumblr", " instagram"];
+        var sites = [""," facebook", " twitter", " tumblr", " instagram"];
 
 
         for(i = 0; i < 5; i++ )
