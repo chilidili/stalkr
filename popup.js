@@ -1,6 +1,4 @@
- window.onload = function() {
-    var a = "cooper";
-    
+ window.onload = function() {    
     function myFunction()
     {
         a=document.getElementById("person").value;
