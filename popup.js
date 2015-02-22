@@ -3,10 +3,10 @@
     
     function myFunction()
     {
-    	 document.getElementById('person').textContent=a;
+         document.getElementById('person').textContent=a;
         var strWindowFeatures = "location=yes,height=570,width=520,scrollbars=yes,status=yes";
-		var URL = "https://www.linkedin.com/cws/share?mini=true&amp;url=" + location.href;
-		var win = window.open(URL, "_blank", strWindowFeatures);
+        var URL = "http://www.google.com/search?q="+a+"+&btnI" + location.href;
+        var win = window.open(URL, "_blank", strWindowFeatures);
     }
     document.getElementById('thing').onclick = myFunction;
 }
